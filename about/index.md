@@ -1,10 +1,10 @@
 ---
 layout: layouts/post.njk
-title: About Me
+title: About
 templateClass: tmpl-post
 eleventyNavigation:
-  key: About Me
-  order: 3
+  key: About
+  order: 5
 ---
 
-I am a person that writes stuff.
+A web developer with more creative ideas than artistic talent, I create digital designs and physical prints perfect for bookmarks, notecards, and more. 
