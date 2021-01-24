@@ -132,8 +132,9 @@ pre {
 .nav {
   padding: 0;
   list-style: none;
-  float: left;
+  float: right;
   margin-left: 1em;
+  margin-right: 1em;
 }
 .nav-item {
   display: inline-block;
