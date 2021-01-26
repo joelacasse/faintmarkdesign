@@ -7,6 +7,7 @@
   --navy: #17050F;
   --blue: #082840;
   --white: #fff;
+  --evergreen: #304A3B;
 }
 * {
   box-sizing: border-box;
@@ -19,8 +20,24 @@ body {
   color: var(--darkgray);
   background-color: var(--white);
 }
-h1 {
+h1.home {
   font-family: 'Adamina', serif;
+  font-size: 1.2rem;
+}
+.hero {
+  width: 100vw;
+  background: rgb(48,74,59);
+  background: linear-gradient(120deg, rgba(48,74,59,1) 0%, rgba(92,117,114,1) 69%, rgba(136,160,168,1) 100%);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+.hero.home-hero {
+  font-size: 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 p:last-child {
   margin-bottom: 0;
@@ -34,10 +51,6 @@ p,
 .tmpl-post li {
   line-height: 1.45;
 }
-.tmpl-post, .tmpl-list {
-  max-width: 600px;
-  margin: 0 auto;
-}
 a[href] {
   color: var(--blue);
 }
@@ -46,9 +59,6 @@ a[href]:visited {
 }
 main {
   padding: 1rem;
-}
-main :first-child {
-  margin-top: 0;
 }
 header {
   border-bottom: 1px dashed var(--lightgray);
@@ -144,12 +154,19 @@ pre {
   display: inline-block;
   margin-right: 1em;
 }
+.nav-item a {
+  padding: 2px 4px;
+}
 .nav-item a[href]:not(:hover) {
   text-decoration: none;
 }
-.nav-item-active {
-  font-weight: 700;
-  text-decoration: underline;
+.nav-item-active a {
+  color: var(--white);
+  background-color: var(--evergreen);
+  border-radius: 0.25em;
+}
+.nav-item-active a[href]:visited {
+  color: var(--white);
 }
 
 /* Posts list */
@@ -191,12 +208,12 @@ pre {
 /* Tags */
 .post-tag {
   display: inline-block;
-  vertical-align: text-top;
+  vertical-align: text-bottom;
   text-transform: uppercase;
   font-size: 0.625em; /* 10px /16 */
   padding: 2px 4px;
   margin-left: 0.8em; /* 8px /10 */
-  background-color: var(--blue);
+  background-color: var(--evergreen);
   color: var(--white);
   border-radius: 0.25em; /* 3px /12 */
   text-decoration: none;
@@ -204,6 +221,11 @@ pre {
 a[href].post-tag,
 a[href].post-tag:visited {
   color: #fff;
+}
+
+/* Descriptions */
+.post-description {
+  margin-left: 0.8em;
 }
 
 /* Warning */
