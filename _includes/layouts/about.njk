@@ -1,0 +1,20 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-post
+---
+<div class='hero'>
+  <h1>{{ title }}</h1>
+</div>
+<div class='pure-g'>
+  <div class='pure-u-1-2'>
+    <div class='pure-g'>
+      <div class='pure-u-1-3'>
+        <img src={{sideImage}} class='pure-img' style='max-width: 200px;'>
+      </div>
+      <div class='pure-u-2-3'>
+        {{ content | safe }}
+      </div>
+    </div>
+  </div>
+</div>
+<hr>

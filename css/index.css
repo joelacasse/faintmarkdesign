@@ -22,7 +22,7 @@ body {
 }
 h1.home {
   font-family: 'Adamina', serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 .hero {
   width: 100vw;
@@ -149,13 +149,15 @@ pre {
   float: right;
   margin-left: 1em;
   margin-right: 1em;
+  font-size: 1.1rem;
 }
 .nav-item {
   display: inline-block;
-  margin-right: 1em;
+  margin-top: 0.25em;
+  margin-right: 0.5em;
 }
 .nav-item a {
-  padding: 2px 4px;
+  padding: 4px 6px;
 }
 .nav-item a[href]:not(:hover) {
   text-decoration: none;
@@ -253,4 +255,9 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+
+/* Font Utility Classes */
+.lightweight {
+  font-weight: 400;
 }

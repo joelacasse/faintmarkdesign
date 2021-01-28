@@ -1,7 +1,8 @@
 ---
-layout: layouts/post.njk
+layout: layouts/about.njk
 title: About
 templateClass: tmpl-post
+sideImage: /img/me.png
 eleventyNavigation:
   key: About
   order: 5
