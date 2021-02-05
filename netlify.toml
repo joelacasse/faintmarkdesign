@@ -3,9 +3,9 @@
   command = "DEBUG=* eleventy"
 
 [[redirects]]
-  from = "http://store.faintmarkdesign.com"
+  from = "/shop"
   to = "https://www.etsy.com/shop/FaintMarkDesign"
 
 [[redirects]]
-  from = "https://store.faintmarkdesign.com"
+  from = "/store"
   to = "https://www.etsy.com/shop/FaintMarkDesign"
