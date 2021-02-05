@@ -9,3 +9,7 @@
 [[redirects]]
   from = "/store"
   to = "https://www.etsy.com/shop/FaintMarkDesign"
+
+[[redirects]]
+  from = "/*"
+  to = "/"
