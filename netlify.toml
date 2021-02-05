@@ -1,3 +1,11 @@
 [build]
   publish = "_site"
   command = "DEBUG=* eleventy"
+
+[[redirects]]
+  from = "http://store.faintmarkdesign.com"
+  to = "https://www.etsy.com/shop/FaintMarkDesign"
+
+[[redirects]]
+  from = "https://store.faintmarkdesign.com"
+  to = "https://www.etsy.com/shop/FaintMarkDesign"
