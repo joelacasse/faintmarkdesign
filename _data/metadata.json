@@ -1,5 +1,20 @@
 {
   "title": "faint mark design",
   "url": "https://faintmarkdesign.com/",
-  "description": "Inviting design for everyday use."
+  "description": "Inviting design for everyday use.",
+  "feed": {
+    "subtitle": "Inviting design for everyday use.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://faintmarkdesign.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://faintmarkdesign.com/feed/feed.json"
+  },
+  "author": {
+    "name": "Joe LaCasse",
+    "email": "joe@faintmarkdesign.com",
+    "url": "https://faintmarkdesign.com/about-me/"
+  }
 }
