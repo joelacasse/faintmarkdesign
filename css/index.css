@@ -24,6 +24,12 @@ h1.home {
   font-family: 'Adamina', serif;
   font-size: 1.2rem;
 }
+.full-width {
+  width: 100%;
+}
+.centered-text {
+  text-align: center;
+}
 .hero {
   width: 100vw;
   background: rgb(48,74,59);
@@ -33,6 +39,36 @@ h1.home {
   padding: 1rem;
   margin-left: -1rem;
   margin-right: -1rem;
+}
+.landing-page {
+  position: absolute;
+  padding: 6rem 1rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  text-align: center;
+  background: rgb(48,74,59);
+  background: linear-gradient(120deg, rgba(48,74,59,1) 0%, rgba(92,117,114,1) 69%, rgba(136,160,168,1) 100%);
+}
+.landing-button {
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+}
+.landing-button-instagram {
+  background-image: url('/img/landing_button_instagram.svg');
+  background-repeat: none;
+  transition: background-image 0.75s ease;
+}
+.landing-button-instagram:hover {
+  background-image: url('/img/landing_button_instagram_hover.svg');
+}
+.landing-button:hover img {
+  background-color: rgba(256, 256, 256, 0.1);
+  border-radius: 50px;
+  border-top-right-radius: 0;
 }
 .hero.home-hero {
   font-size: 1.5rem;
@@ -58,7 +94,7 @@ a[href]:visited {
   color: var(--navy);
 }
 main {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 header {
   border-bottom: 1px dashed var(--lightgray);
