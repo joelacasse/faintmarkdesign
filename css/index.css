@@ -43,6 +43,8 @@ h1.home {
 .landing-page {
   width: 90vw;
   height: 88vh;
+  padding-bottom: 2
+  0px;
   max-width: 600px;
   margin: 0 auto;
   display: flex;
