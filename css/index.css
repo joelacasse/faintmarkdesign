@@ -42,20 +42,28 @@ h1.home {
 }
 .landing-page {
   width: 90vw;
+  height: 88vh;
   max-width: 600px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .landing-button {
-  margin: 20px auto;
+  margin: 0 auto;
   height: 30vw;
-  max-height: 200px;
+  max-height: 180px;
   width: 90vw;
-  max-width: 600px;
+  max-width: 540px;
   background-repeat: none;
   border-radius: 30px;
   border-bottom: 1px dashed var(--lightgray);
   border-top: 1px dashed var(--lightgray);
   transition: border 0.3s ease;
+}
+.landing-button:hover {
+  border-top: 1px dashed var(--evergreen);
+  border-bottom: 1px dashed var(--evergreen);
 }
 .landing-button-instagram {
   background-image: url('/img/triangulated_text_instagram.svg');
@@ -63,9 +71,8 @@ h1.home {
 .landing-button-store {
   background-image: url('/img/triangulated_text_store.svg');
 }
-.landing-button:hover {
-  border-top: 1px dashed var(--blue);
-  border-bottom: 1px dashed var(--blue);
+.landing-button-subscribe {
+  background-image: url('/img/triangulated_text_subscribe.svg');
 }
 .hero.home-hero {
   font-size: 1.5rem;
