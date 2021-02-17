@@ -43,8 +43,7 @@ h1.home {
 .landing-page {
   width: 90vw;
   height: 88vh;
-  padding-bottom: 2
-  0px;
+  padding-bottom: 40px;
   max-width: 600px;
   margin: 0 auto;
   display: flex;
@@ -53,11 +52,12 @@ h1.home {
 }
 .landing-button {
   margin: 0 auto;
-  height: 30vw;
-  max-height: 180px;
+  height: 24vw;
+  max-height: 144px;
   width: 90vw;
   max-width: 540px;
-  background-repeat: none;
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 30px;
   border-bottom: 1px dashed var(--lightgray);
   border-top: 1px dashed var(--lightgray);
